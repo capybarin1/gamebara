@@ -100,9 +100,7 @@ clock = time.Clock()
 font.init()
 font_universal = font.Font(None, 36)
 lose = font_universal.render('КАПИБАРЫ КОНЧИЛИСЬ', True, (0, 255, 221))
-# также необходимо создать поле текста отвечающее за убитых врагов
-# текст который необходимо выводить "Врагов убито:" + переменная score
-# отобразить данное поле текста под полем с количеством пропущенных врагов
+
 
 strelyat_on = False
 heart1 = transform.scale(image.load('capybar.png'), (100, 100))
